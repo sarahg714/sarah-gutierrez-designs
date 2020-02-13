@@ -1,0 +1,222 @@
+
+/*****BASE STYLES*****/
+body {
+  width: 1200px;
+  margin: auto;
+}
+
+body p {
+  font-family: 'Nunito Sans', sans-sans-serif;
+  font-size: 20px;
+}
+
+
+
+#portfolio {
+  height: 750px;
+}
+
+#about {
+  height: 650px;
+}
+
+#contact {
+  height: 400px;
+}
+
+
+/*****GRID*****/
+
+.full-width {
+  width: 1200px;
+
+}
+
+.half-width {
+  width: 600px;
+
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+
+/*****HEADER*****/
+
+header {
+  background: url(../img/sunflower-field.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+  border: 1px #ffffff solid;
+}
+
+
+nav {
+  float: right;
+  padding: 25px 25px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a{
+  text-transform: lowercase;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px white;
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-weight: normal;
+  padding-left: 80px;
+}
+
+
+
+h1 {
+  color: #ffffff;
+  font-family: 'Taviraj', serif;
+  font-size: 60px;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  padding-top: 175px;
+  line-height: 80px;
+}
+
+span {
+  color: rgb(253, 233, 51);
+  font-family: 'Taviraj', serif;
+  font-size: 60px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+/*****SECTIONS*****/
+
+
+h2 {
+  color: #000000;
+  background-color: #e6f2f5;
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-size: 36px;
+  text-align: center;
+  text-shadow: 2px 2px 4px #ffffff;
+  margin-bottom: 50px;
+
+}
+
+h3 {
+  font-family: 'Rasa', serif;
+  font-size: 24px;
+}
+
+
+/*****WORK*****/
+
+#portfolio .full-width {
+  width: 1200px;
+}
+
+.projects img {
+  float: left;
+  clear: left;
+  width: 240px;
+  margin-left: 50px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+.projects p {
+  margin-bottom: 100px;
+  margin-right: 30px;
+}
+
+
+
+
+/*****ABOUT*****/
+
+#about .full-width {
+  width: 1200px;
+
+}
+
+#about .half-width {
+  float: left;
+  width: 600px;
+}
+
+#about img {
+  display: block;
+  margin-top: 30px;
+  margin-left: 120px;
+  margin-right: 100px;
+  width: 300px;
+  border: 10px double rgb(253, 233, 51);
+}
+
+#about p {
+  font-size: 20px;
+  margin-right: 30px;
+  margin-left: -50px;
+}
+
+#about h3 {
+  margin-left: -50px;
+}
+
+/*****CONTACT*****/
+
+#contact {
+  background-color: #ffffff;
+  background-position: center;
+  background-size: contain;
+  font-family: 'Nunito Sans', sans-sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  width: 1200px;
+}
+
+/* unvisited link*/
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+/*visited link*/
+a:visited {
+  color: rgb(141, 0, 110);
+  text-decoration: none;
+}
+
+/*mouse over link*/
+a:hover {
+  text-decoration: underline;
+}
+
+/*selected link*/
+a:active {
+  text-decoration: underline;
+}
+
+#contact li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 50px;
+  padding-left: 30px;
+}
+
+#contact .half-width {
+  text-align: center;
+  width: 600px;
+  float: left;
+  margin-left: -20px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 15px;
+}
